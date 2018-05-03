@@ -384,29 +384,7 @@ Entry Wire Line
 Entry Wire Line
 	2700 1350 2800 1450
 Wire Bus Line
-	2700 600  2700 650 
-Wire Bus Line
-	2700 650  2700 1150
-Wire Bus Line
-	2700 1150 2700 1250
-Wire Bus Line
-	2700 1250 2700 1350
-Wire Bus Line
-	2700 1350 2700 2350
-Wire Bus Line
-	2700 2350 2700 2850
-Wire Bus Line
-	2700 2850 2700 2950
-Wire Bus Line
-	2700 2950 2700 3050
-Wire Bus Line
-	2700 3050 2700 4050
-Wire Bus Line
-	2700 4050 2700 4550
-Wire Bus Line
-	2700 4550 2700 4650
-Wire Bus Line
-	2700 4650 2700 4750
+	2700 600  2700 4750
 Entry Wire Line
 	2700 650  2800 750 
 Wire Wire Line
@@ -611,61 +589,7 @@ Entry Wire Line
 Entry Wire Line
 	9250 1350 9150 1450
 Wire Bus Line
-	9250 600  9250 650 
-Wire Bus Line
-	9250 650  9250 1150
-Wire Bus Line
-	9250 1150 9250 1250
-Wire Bus Line
-	9250 1250 9250 1350
-Wire Bus Line
-	9250 1350 9250 2350
-Wire Bus Line
-	9250 2350 9250 2850
-Wire Bus Line
-	9250 2850 9250 2950
-Wire Bus Line
-	9250 2950 9250 3050
-Wire Bus Line
-	9250 3050 9250 4050
-Wire Bus Line
-	9250 4050 9250 4550
-Wire Bus Line
-	9250 4550 9250 4650
-Wire Bus Line
-	9250 4650 9250 4750
-Wire Bus Line
-	9250 4750 9250 5750
-Wire Bus Line
-	9250 5750 9250 6250
-Wire Bus Line
-	9250 6250 9250 6350
-Wire Bus Line
-	9250 6350 9250 6450
-Wire Bus Line
-	9250 6450 9250 7450
-Wire Bus Line
-	9250 7450 9250 7950
-Wire Bus Line
-	9250 7950 9250 8050
-Wire Bus Line
-	9250 8050 9250 8150
-Wire Bus Line
-	9250 8150 9250 9150
-Wire Bus Line
-	9250 9150 9250 9650
-Wire Bus Line
-	9250 9650 9250 9750
-Wire Bus Line
-	9250 9750 9250 9850
-Wire Bus Line
-	9250 9850 9250 10850
-Wire Bus Line
-	9250 10850 9250 11350
-Wire Bus Line
-	9250 11350 9250 11450
-Wire Bus Line
-	9250 11450 9250 11550
+	9250 600  9250 11550
 Entry Wire Line
 	9250 650  9150 750 
 Wire Wire Line
@@ -815,9 +739,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 4150 7950 4600
 Wire Bus Line
-	2700 600  4700 600 
-Wire Bus Line
-	4700 600  9250 600 
+	2700 600  9250 600 
 $Comp
 L 74HC4051 U407
 U 1 1 5AED4578
@@ -1247,175 +1169,89 @@ Entry Wire Line
 Entry Wire Line
 	7200 12000 7300 12100
 Wire Bus Line
-	4750 3800 4750 4600
-Wire Bus Line
-	4750 4600 4750 4700
-Wire Bus Line
-	4750 4700 4750 4800
-Wire Bus Line
-	4750 4800 4750 4900
-Wire Bus Line
-	4750 4900 4750 5000
-Wire Bus Line
-	4750 5000 4750 5100
-Wire Bus Line
-	4750 5100 4750 5200
-Wire Bus Line
-	4750 5200 4750 5300
+	4750 3500 4750 5300
 Wire Bus Line
 	4750 2900 4850 2900
 Wire Bus Line
-	4750 4600 4850 4600
+	4750 3500 4850 3500
 Wire Bus Line
-	7200 1200 7200 1300
-Wire Bus Line
-	7200 1300 7200 1400
-Wire Bus Line
-	7200 1400 7200 1500
-Wire Bus Line
-	7200 1500 7200 1600
-Wire Bus Line
-	7200 1600 7200 1700
-Wire Bus Line
-	7200 1700 7200 1800
-Wire Bus Line
-	7200 1800 7200 1900
-Wire Bus Line
-	7200 1900 7200 2900
-Wire Bus Line
-	7200 2900 7200 3000
-Wire Bus Line
-	7200 3000 7200 3100
-Wire Bus Line
-	7200 3100 7200 3200
-Wire Bus Line
-	7200 3200 7200 3300
-Wire Bus Line
-	7200 3300 7200 3400
-Wire Bus Line
-	7200 3400 7200 3500
-Wire Bus Line
-	7200 3500 7200 3600
-Wire Bus Line
-	7200 3600 7200 4600
-Wire Bus Line
-	7200 4600 7200 4700
-Wire Bus Line
-	7200 4700 7200 4800
-Wire Bus Line
-	7200 4800 7200 4900
-Wire Bus Line
-	7200 4900 7200 5000
-Wire Bus Line
-	7200 5000 7200 5100
-Wire Bus Line
-	7200 5100 7200 5200
-Wire Bus Line
-	7200 5200 7200 5300
+	7200 1200 7200 5300
 Wire Bus Line
 	7200 1200 7100 1200
 Wire Bus Line
-	7200 6300 7200 6400
-Wire Bus Line
-	7200 6400 7200 6500
-Wire Bus Line
-	7200 6500 7200 6600
-Wire Bus Line
-	7200 6600 7200 6700
-Wire Bus Line
-	7200 6700 7200 6800
-Wire Bus Line
-	7200 6800 7200 6900
-Wire Bus Line
-	7200 6900 7200 7000
-Wire Bus Line
-	7200 7000 7200 8000
-Wire Bus Line
-	7200 8000 7200 8100
-Wire Bus Line
-	7200 8100 7200 8200
-Wire Bus Line
-	7200 8200 7200 8300
-Wire Bus Line
-	7200 8300 7200 8400
-Wire Bus Line
-	7200 8400 7200 8500
-Wire Bus Line
-	7200 8500 7200 8600
-Wire Bus Line
-	7200 8600 7200 8700
+	7200 6300 7200 8700
 Wire Bus Line
 	7200 6300 7100 6300
 Wire Bus Line
 	7200 9700 7100 9700
 Text HLabel 4850 2900 2    60   Input ~ 0
 OA[1..5]
-Text HLabel 4850 4600 2    60   Input ~ 0
+Text HLabel 4850 3500 2    60   Input ~ 0
 DA[11..24]
 Text Label 2800 4650 0    60   ~ 0
-M01
+M1
 Text Label 2800 4750 0    60   ~ 0
-M02
+M2
 Text Label 2800 4850 0    60   ~ 0
-M03
+M3
 Text Label 2800 1250 0    60   ~ 0
-M01
+M1
 Text Label 2800 1350 0    60   ~ 0
-M02
+M2
 Text Label 2800 1450 0    60   ~ 0
-M03
+M3
 Text Label 2800 2950 0    60   ~ 0
-M01
+M1
 Text Label 2800 3050 0    60   ~ 0
-M02
+M2
 Text Label 2800 3150 0    60   ~ 0
-M03
+M3
 Text Label 9150 11450 2    60   ~ 0
-M01
+M1
 Text Label 9150 11550 2    60   ~ 0
-M02
+M2
 Text Label 9150 11650 2    60   ~ 0
-M03
+M3
 Text Label 9150 1250 2    60   ~ 0
-M01
+M1
 Text Label 9150 1350 2    60   ~ 0
-M02
+M2
 Text Label 9150 1450 2    60   ~ 0
-M03
+M3
 Text Label 9150 2950 2    60   ~ 0
-M01
+M1
 Text Label 9150 3050 2    60   ~ 0
-M02
+M2
 Text Label 9150 3150 2    60   ~ 0
-M03
+M3
 Wire Wire Line
 	8750 8150 9150 8150
 Text Label 9150 4650 2    60   ~ 0
-M01
+M1
 Text Label 9150 4750 2    60   ~ 0
-M02
+M2
 Text Label 9150 4850 2    60   ~ 0
-M03
+M3
 Text Label 9150 6350 2    60   ~ 0
-M01
+M1
 Text Label 9150 6450 2    60   ~ 0
-M02
+M2
 Text Label 9150 6550 2    60   ~ 0
-M03
+M3
 Text Label 9150 8050 2    60   ~ 0
-M01
+M1
 Text Label 9150 8150 2    60   ~ 0
-M02
+M2
 Text Label 9150 8250 2    60   ~ 0
-M03
+M3
 Text Label 9150 9750 2    60   ~ 0
-M01
+M1
 Text Label 9150 9850 2    60   ~ 0
-M02
+M2
 Text Label 9150 9950 2    60   ~ 0
-M03
+M3
 Text HLabel 4850 750  2    60   Output ~ 0
-M[01..27]
+M[1..27]
 Wire Bus Line
 	4850 750  4700 750 
 Wire Bus Line
@@ -1446,23 +1282,23 @@ Text Label 9150 9250 2    60   ~ 0
 M26
 Text Label 9150 10950 2    60   ~ 0
 M27
-Text Label 4400 1300 0    60   ~ 0
-HA11
-Text Label 4400 1400 0    60   ~ 0
-HA12
 Text Label 4400 1500 0    60   ~ 0
-HA13
-Text Label 4400 1600 0    60   ~ 0
-HA21
-Text Label 4400 1700 0    60   ~ 0
-HA22
-Text Label 4400 1800 0    60   ~ 0
-HA23
+HA11
 Text Label 4400 1900 0    60   ~ 0
-HA31
+HA12
+Text Label 4400 1700 0    60   ~ 0
+HA13
 Text Label 4400 2000 0    60   ~ 0
+HA21
+Text Label 4400 1800 0    60   ~ 0
+HA22
+Text Label 4400 1400 0    60   ~ 0
+HA23
+Text Label 4400 1300 0    60   ~ 0
+HA31
+Text Label 4400 1600 0    60   ~ 0
 HA32
-Text Label 4400 5300 0    60   ~ 0
+Text Label 4400 5200 0    60   ~ 0
 HA33
 Text Label 4400 3500 0    60   ~ 0
 OA1
@@ -1476,19 +1312,19 @@ Text Label 4400 3200 0    60   ~ 0
 OA5
 Text Label 4400 3700 0    60   ~ 0
 DA11
-Text Label 4400 4800 0    60   ~ 0
-DA12
-Text Label 4400 4900 0    60   ~ 0
-DA13
 Text Label 4400 5000 0    60   ~ 0
+DA12
+Text Label 4400 4700 0    60   ~ 0
+DA13
+Text Label 4400 4800 0    60   ~ 0
 DA14
 Text Label 4400 3600 0    60   ~ 0
 DA21
-Text Label 4400 5200 0    60   ~ 0
+Text Label 4400 4900 0    60   ~ 0
 DA22
-Text Label 4400 4700 0    60   ~ 0
-DA23
 Text Label 4400 5100 0    60   ~ 0
+DA23
+Text Label 4400 5300 0    60   ~ 0
 DA24
 Text Label 7300 1800 0    60   ~ 0
 HD11
@@ -1596,46 +1432,14 @@ Text Label 7300 11500 0    60   ~ 0
 OD43
 Text Label 7300 12100 0    60   ~ 0
 OD51
-Text Label 7300 12200 0    60   ~ 0
-OD52
 Text Label 7300 12000 0    60   ~ 0
+OD52
+Text Label 7300 12200 0    60   ~ 0
 OD53
 Wire Bus Line
-	4750 2900 4750 3000
+	4750 2900 4750 3400
 Wire Bus Line
-	4750 3000 4750 3100
-Wire Bus Line
-	4750 3100 4750 3200
-Wire Bus Line
-	4750 3200 4750 3400
-Wire Bus Line
-	7200 9700 7200 9800
-Wire Bus Line
-	7200 9800 7200 9900
-Wire Bus Line
-	7200 9900 7200 10000
-Wire Bus Line
-	7200 10000 7200 10100
-Wire Bus Line
-	7200 10100 7200 10200
-Wire Bus Line
-	7200 10200 7200 10300
-Wire Bus Line
-	7200 10300 7200 10400
-Wire Bus Line
-	7200 10400 7200 11400
-Wire Bus Line
-	7200 11400 7200 11500
-Wire Bus Line
-	7200 11500 7200 11600
-Wire Bus Line
-	7200 11600 7200 11800
-Wire Bus Line
-	7200 11800 7200 11900
-Wire Bus Line
-	7200 11900 7200 12000
-Wire Bus Line
-	7200 12000 7200 12100
+	7200 9700 7200 12100
 Connection ~ 4700 600 
 NoConn ~ 7950 11800
 Wire Wire Line
@@ -1654,27 +1458,7 @@ Entry Wire Line
 Entry Wire Line
 	4650 3000 4750 2900
 Wire Bus Line
-	4750 1200 4750 1300
-Wire Bus Line
-	4750 1300 4750 1400
-Wire Bus Line
-	4750 1400 4750 1500
-Wire Bus Line
-	4750 1500 4750 1600
-Wire Bus Line
-	4750 1600 4750 1700
-Wire Bus Line
-	4750 1700 4750 1800
-Wire Bus Line
-	4750 1800 4750 1900
-Wire Bus Line
-	4750 3800 4750 3800
-Wire Bus Line
-	4750 3500 4750 3600
-Wire Bus Line
-	4750 3600 4750 3800
-Wire Wire Line
-	4650 3500 4650 3500
+	4750 1200 4750 1900
 Wire Wire Line
 	4000 3600 4650 3600
 Entry Wire Line

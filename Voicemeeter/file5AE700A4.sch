@@ -663,12 +663,6 @@ Wire Wire Line
 	7050 1900 7050 2100
 Connection ~ 7050 2100
 Wire Wire Line
-	4600 1900 3400 1900
-Wire Wire Line
-	4600 2100 3400 2100
-Wire Wire Line
-	4600 2300 3400 2300
-Wire Wire Line
 	4600 2500 3400 2500
 Wire Wire Line
 	4600 2700 3400 2700
@@ -693,12 +687,6 @@ Wire Bus Line
 Wire Bus Line
 	7850 3700 8000 3700
 Entry Wire Line
-	3300 2000 3400 1900
-Entry Wire Line
-	3300 2200 3400 2100
-Entry Wire Line
-	3300 2400 3400 2300
-Entry Wire Line
 	3300 2600 3400 2500
 Entry Wire Line
 	3300 2800 3400 2700
@@ -713,15 +701,9 @@ Entry Wire Line
 Entry Wire Line
 	3300 3800 3400 3700
 Wire Bus Line
-	3300 2000 3300 3800
+	3300 1700 3300 3800
 Wire Bus Line
-	3300 2000 3150 2000
-Text Label 3400 1900 0    60   ~ 0
-M01
-Text Label 3400 2100 0    60   ~ 0
-M02
-Text Label 3400 2300 0    60   ~ 0
-M03
+	3300 1700 3150 1700
 Text Label 7000 4100 0    60   ~ 0
 M11
 Text Label 7000 3900 0    60   ~ 0
@@ -744,8 +726,8 @@ Text Label 3400 3700 0    60   ~ 0
 M27
 Text HLabel 8000 3700 2    60   Input ~ 0
 M[1..27]
-Text HLabel 3150 2000 0    60   Input ~ 0
-M[01..27]
+Text HLabel 3150 1700 0    60   Input ~ 0
+M[1..27]
 NoConn ~ 9650 3550
 NoConn ~ 9500 3750
 NoConn ~ 10050 3950
@@ -757,7 +739,7 @@ NoConn ~ 9650 2250
 NoConn ~ 10450 2250
 NoConn ~ 10700 2450
 Wire Wire Line
-	4600 5500 4150 5500
+	4150 5500 4600 5500
 Wire Wire Line
 	4400 5600 4400 5700
 Connection ~ 4400 5700
@@ -837,4 +819,22 @@ Text Label 3400 3900 0    60   ~ 0
 SK1
 Text Label 3400 4300 0    60   ~ 0
 SK2
+Entry Wire Line
+	3300 2400 3400 2300
+Entry Wire Line
+	3300 2200 3400 2100
+Entry Wire Line
+	3300 2000 3400 1900
+Wire Wire Line
+	4600 1900 3400 1900
+Wire Wire Line
+	3400 2100 4600 2100
+Wire Wire Line
+	3400 2300 4600 2300
+Text Label 3400 1900 0    60   ~ 0
+M1
+Text Label 3400 2100 0    60   ~ 0
+M2
+Text Label 3400 2300 0    60   ~ 0
+M3
 $EndSCHEMATC
