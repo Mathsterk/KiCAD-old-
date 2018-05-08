@@ -369,35 +369,35 @@ $EndComp
 $Comp
 L +3V3 #PWR043
 U 1 1 5AE72463
-P 4400 5600
-F 0 "#PWR043" H 4400 5450 50  0001 C CNN
-F 1 "+3V3" H 4400 5740 50  0000 C CNN
-F 2 "" H 4400 5600 50  0001 C CNN
-F 3 "" H 4400 5600 50  0001 C CNN
-	1    4400 5600
-	0    1    1    0   
+P 3600 5850
+F 0 "#PWR043" H 3600 5700 50  0001 C CNN
+F 1 "+3V3" H 3600 5990 50  0000 C CNN
+F 2 "" H 3600 5850 50  0001 C CNN
+F 3 "" H 3600 5850 50  0001 C CNN
+	1    3600 5850
+	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR044
 U 1 1 5AE72489
-P 4400 5400
-F 0 "#PWR044" H 4400 5150 50  0001 C CNN
-F 1 "GND" H 4400 5250 50  0000 C CNN
-F 2 "" H 4400 5400 50  0001 C CNN
-F 3 "" H 4400 5400 50  0001 C CNN
-	1    4400 5400
+P 3650 5400
+F 0 "#PWR044" H 3650 5150 50  0001 C CNN
+F 1 "GND" H 3650 5250 50  0000 C CNN
+F 2 "" H 3650 5400 50  0001 C CNN
+F 3 "" H 3650 5400 50  0001 C CNN
+	1    3650 5400
 	0    -1   -1   0   
 $EndComp
 $Comp
 L +5V #PWR045
 U 1 1 5AE724A9
-P 4400 5200
-F 0 "#PWR045" H 4400 5050 50  0001 C CNN
-F 1 "+5V" H 4400 5340 50  0000 C CNN
-F 2 "" H 4400 5200 50  0001 C CNN
-F 3 "" H 4400 5200 50  0001 C CNN
-	1    4400 5200
-	0    1    1    0   
+P 3600 5150
+F 0 "#PWR045" H 3600 5000 50  0001 C CNN
+F 1 "+5V" H 3600 5290 50  0000 C CNN
+F 2 "" H 3600 5150 50  0001 C CNN
+F 3 "" H 3600 5150 50  0001 C CNN
+	1    3600 5150
+	1    0    0    -1  
 $EndComp
 $Comp
 L DIN_5 J507
@@ -580,6 +580,120 @@ Entry Wire Line
 	7750 3900 7850 4000
 Entry Wire Line
 	7750 4100 7850 4200
+Entry Wire Line
+	3300 2600 3400 2500
+Entry Wire Line
+	3300 2800 3400 2700
+Entry Wire Line
+	3300 3000 3400 2900
+Entry Wire Line
+	3300 3200 3400 3100
+Entry Wire Line
+	3300 3400 3400 3300
+Entry Wire Line
+	3300 3600 3400 3500
+Entry Wire Line
+	3300 3800 3400 3700
+Text Label 7000 4100 0    60   ~ 0
+M11
+Text Label 7000 3900 0    60   ~ 0
+M12
+Text Label 7000 3700 0    60   ~ 0
+M13
+Text Label 3400 2500 0    60   ~ 0
+M21
+Text Label 3400 2700 0    60   ~ 0
+M22
+Text Label 3400 2900 0    60   ~ 0
+M23
+Text Label 3400 3100 0    60   ~ 0
+M24
+Text Label 3400 3300 0    60   ~ 0
+M25
+Text Label 3400 3500 0    60   ~ 0
+M26
+Text Label 3400 3700 0    60   ~ 0
+M27
+Text HLabel 8000 3700 2    60   Input ~ 0
+M[1..27]
+Text HLabel 3150 1700 0    60   Input ~ 0
+M[1..27]
+NoConn ~ 9650 3550
+NoConn ~ 9500 3750
+NoConn ~ 10050 3950
+NoConn ~ 10650 3750
+NoConn ~ 10450 3550
+NoConn ~ 9850 2750
+NoConn ~ 9500 2450
+NoConn ~ 9650 2250
+NoConn ~ 10450 2250
+NoConn ~ 10700 2450
+$Comp
+L CONN_01X03 J502
+U 1 1 5AEF03BA
+P 2800 5500
+F 0 "J502" H 2800 5700 50  0000 C CNN
+F 1 "CONN_01X03" V 2900 5500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2800 5500 50  0001 C CNN
+F 3 "" H 2800 5500 50  0001 C CNN
+	1    2800 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X05 J501
+U 1 1 5AEF0646
+P 3950 4700
+F 0 "J501" H 3950 5000 50  0000 C CNN
+F 1 "CONN_01X05" V 4050 4700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 3950 4700 50  0001 C CNN
+F 3 "" H 3950 4700 50  0001 C CNN
+	1    3950 4700
+	-1   0    0    1   
+$EndComp
+Entry Wire Line
+	3300 4400 3400 4300
+Entry Wire Line
+	3300 4000 3400 3900
+Text HLabel 3200 4000 0    60   Output ~ 0
+SK[1..2]
+Text Label 3400 3900 0    60   ~ 0
+SK1
+Text Label 3400 4300 0    60   ~ 0
+SK2
+Entry Wire Line
+	3300 2400 3400 2300
+Entry Wire Line
+	3300 2200 3400 2100
+Entry Wire Line
+	3300 2000 3400 1900
+Text Label 3400 1900 0    60   ~ 0
+M1
+Text Label 3400 2100 0    60   ~ 0
+M2
+Text Label 3400 2300 0    60   ~ 0
+M3
+$Comp
+L CP C502
+U 1 1 5AEBCCE9
+P 4000 5650
+F 0 "C502" H 4025 5750 50  0000 L CNN
+F 1 "220uF" H 4025 5550 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 4038 5500 50  0001 C CNN
+F 3 "" H 4000 5650 50  0001 C CNN
+	1    4000 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C501
+U 1 1 5AEBCD4A
+P 4000 5350
+F 0 "C501" H 4025 5450 50  0000 L CNN
+F 1 "220uF" H 4025 5250 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 4038 5200 50  0001 C CNN
+F 3 "" H 4000 5350 50  0001 C CNN
+	1    4000 5350
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	7000 2100 7450 2100
 Wire Wire Line
@@ -686,107 +800,26 @@ Wire Bus Line
 	7850 3700 7850 4200
 Wire Bus Line
 	7850 3700 8000 3700
-Entry Wire Line
-	3300 2600 3400 2500
-Entry Wire Line
-	3300 2800 3400 2700
-Entry Wire Line
-	3300 3000 3400 2900
-Entry Wire Line
-	3300 3200 3400 3100
-Entry Wire Line
-	3300 3400 3400 3300
-Entry Wire Line
-	3300 3600 3400 3500
-Entry Wire Line
-	3300 3800 3400 3700
 Wire Bus Line
 	3300 1700 3300 3800
 Wire Bus Line
 	3300 1700 3150 1700
-Text Label 7000 4100 0    60   ~ 0
-M11
-Text Label 7000 3900 0    60   ~ 0
-M12
-Text Label 7000 3700 0    60   ~ 0
-M13
-Text Label 3400 2500 0    60   ~ 0
-M21
-Text Label 3400 2700 0    60   ~ 0
-M22
-Text Label 3400 2900 0    60   ~ 0
-M23
-Text Label 3400 3100 0    60   ~ 0
-M24
-Text Label 3400 3300 0    60   ~ 0
-M25
-Text Label 3400 3500 0    60   ~ 0
-M26
-Text Label 3400 3700 0    60   ~ 0
-M27
-Text HLabel 8000 3700 2    60   Input ~ 0
-M[1..27]
-Text HLabel 3150 1700 0    60   Input ~ 0
-M[1..27]
-NoConn ~ 9650 3550
-NoConn ~ 9500 3750
-NoConn ~ 10050 3950
-NoConn ~ 10650 3750
-NoConn ~ 10450 3550
-NoConn ~ 9850 2750
-NoConn ~ 9500 2450
-NoConn ~ 9650 2250
-NoConn ~ 10450 2250
-NoConn ~ 10700 2450
 Wire Wire Line
-	4150 5500 4600 5500
+	3000 5500 3800 5500
 Wire Wire Line
-	4400 5600 4400 5700
-Connection ~ 4400 5700
-Wire Wire Line
-	4400 5400 4400 5500
-Connection ~ 4400 5500
-Wire Wire Line
-	4400 5200 4400 5300
-Connection ~ 4400 5300
+	3650 5500 4600 5500
 Wire Wire Line
 	4600 3900 3400 3900
 Wire Wire Line
 	3400 4300 4600 4300
-$Comp
-L CONN_01X03 J502
-U 1 1 5AEF03BA
-P 3950 5500
-F 0 "J502" H 3950 5700 50  0000 C CNN
-F 1 "CONN_01X03" V 4050 5500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 3950 5500 50  0001 C CNN
-F 3 "" H 3950 5500 50  0001 C CNN
-	1    3950 5500
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4150 5400 4150 5300
 Wire Wire Line
 	4150 5300 4600 5300
-Wire Wire Line
-	4150 5600 4150 5700
 Wire Wire Line
 	4150 5700 4600 5700
 Wire Wire Line
 	4600 5100 4150 5100
 Wire Wire Line
 	4250 4900 4600 4900
-$Comp
-L CONN_01X05 J501
-U 1 1 5AEF0646
-P 3950 4700
-F 0 "J501" H 3950 5000 50  0000 C CNN
-F 1 "CONN_01X05" V 4050 4700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 3950 4700 50  0001 C CNN
-F 3 "" H 3950 4700 50  0001 C CNN
-	1    3950 4700
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4150 5100 4150 4900
 Wire Wire Line
@@ -805,36 +838,55 @@ Wire Wire Line
 	4150 4500 4150 4100
 Wire Wire Line
 	4150 4100 4600 4100
-Entry Wire Line
-	3300 4400 3400 4300
-Entry Wire Line
-	3300 4000 3400 3900
 Wire Bus Line
 	3300 4000 3300 4400
 Wire Bus Line
 	3300 4000 3200 4000
-Text HLabel 3200 4000 0    60   Output ~ 0
-SK[1..2]
-Text Label 3400 3900 0    60   ~ 0
-SK1
-Text Label 3400 4300 0    60   ~ 0
-SK2
-Entry Wire Line
-	3300 2400 3400 2300
-Entry Wire Line
-	3300 2200 3400 2100
-Entry Wire Line
-	3300 2000 3400 1900
 Wire Wire Line
 	4600 1900 3400 1900
 Wire Wire Line
 	3400 2100 4600 2100
 Wire Wire Line
 	3400 2300 4600 2300
-Text Label 3400 1900 0    60   ~ 0
-M1
-Text Label 3400 2100 0    60   ~ 0
-M2
-Text Label 3400 2300 0    60   ~ 0
-M3
+Wire Wire Line
+	3600 5800 4150 5800
+Wire Wire Line
+	4150 5800 4150 5700
+Wire Wire Line
+	4150 5200 4150 5300
+Wire Wire Line
+	3600 5200 4150 5200
+Wire Wire Line
+	3600 5400 3600 5150
+Connection ~ 4000 5200
+Wire Wire Line
+	3600 5600 3600 5850
+Connection ~ 4000 5800
+Connection ~ 4000 5500
+Connection ~ 3600 5800
+Wire Wire Line
+	3650 5400 3650 5500
+Connection ~ 3650 5500
+Connection ~ 3600 5200
+$Comp
+L Screw_Terminal_1x02 J509
+U 1 1 5AEBE0C4
+P 3150 5050
+F 0 "J509" H 3150 5300 50  0000 C TNN
+F 1 "Screw_Terminal_1x02" V 3000 5050 50  0000 C TNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 3150 4825 50  0001 C CNN
+F 3 "" H 3125 5050 50  0001 C CNN
+	1    3150 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3000 5400 3600 5400
+Wire Wire Line
+	3050 5400 3050 5250
+Connection ~ 3050 5400
+Wire Wire Line
+	3250 5250 3250 5500
+Connection ~ 3250 5500
+Wire Wire Line
+	3600 5600 3000 5600
 $EndSCHEMATC
